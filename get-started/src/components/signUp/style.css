@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+/*#input {
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 50px;
+}*/
+
+.icon-s {
+  position: absolute;
+  left: 50px;
+  padding-top: 5px;
+  color: silver;
+}
+::placeholder {
+  padding-left: 40px;
+  color: silver;
+  font-size: 12px;
+}
+
+.signUp,
+.login {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  font-weight: 500;
+  border-top: 2px solid black;
+}
+
+.signUp,
+.login:active {
+  color: #4571da;
+  border-top: 2px solid #4571da;
+}
+
+/* .login:active {
+  color: #4571da;
+  border-top: 2px solid #4571da;
+} */
+
+.div-log {
+  margin-top: -10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.log {
+  text-decoration: none;
+  padding-left: 5px;
+}
+.or {
+  display: flex;
+  align-items: center;
+
+  text-align: center;
+  margin-top: -12px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.or::before,
+.or::after {
+  content: "";
+  flex: 1;
+
+  border-bottom: 2px solid #000;
+}
+.or::before {
+  margin-right: 10px;
+  padding-left: 5px;
+}
+.or::after {
+  margin-left: 10px;
+  padding-right: 5px;
+}
+.foot {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.social svg {
+  margin-top: -8px;
+  padding-left: 10px;
+}
+
+.bi-google {
+  background: linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0
+      25%/48% 40%,
+    linear-gradient(to top left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+    linear-gradient(-40deg, transparent 53%, #ea4335 54%),
+    linear-gradient(45deg, transparent 46%, #4285f4 48%), #34a853;
+  background-repeat: no-repeat;
+  /*-webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;*/
+}
+
+.form-check {
+  font-size: 10px;
+  margin-top: -20px;
+}
+
+label {
+  padding-left: -220px;
+  font-weight: 500;
+}
+
+.forget {
+  padding-left: 170px;
+}
