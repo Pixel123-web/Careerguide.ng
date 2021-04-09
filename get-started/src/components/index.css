@@ -10,7 +10,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-
 /* nav links and buttons */
 .nav-link {
   font-weight: 600;
@@ -19,6 +18,7 @@ body {
 
 .nav-link:hover {
   font-weight: 700;
+  background-color: rgba(52, 136, 209, 0.1) !important;
 }
 
 .navbar-toggler:focus {
@@ -30,7 +30,6 @@ body {
 .button-2 {
   text-align: center;
   position: relative;
-
   font-size: 20px !important;
 }
 
@@ -41,7 +40,7 @@ body {
 }
 
 .dropdown-menu-custom {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgba(0, 0, 0, 0.4) !important;
   border: none !important;
   outline: none !important;
   width: 100px !important;
@@ -53,7 +52,12 @@ body {
 }
 
 .dropdown-item:hover {
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: rgb(52, 136, 209) !important;
+  color: #fff !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
 }
 
 /* container-1 */
@@ -78,17 +82,9 @@ body {
   border-top: 3px solid #4981b3 !important;
 }
 
-/*.home-hero h1 {
-}*/
-
-.home-hero p {
-  font-size: 16px;
-  font-weight: 400;
-}
-
 /* searchbar */
 .elementsContainer {
-  width: 42%;
+  width: 15%;
   height: 40px;
   vertical-align: middle;
   margin-left: 10px;
@@ -99,8 +95,6 @@ body {
   width: 100%;
   padding: 0px 5px;
   padding-left: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   font-size: 12px;
@@ -113,8 +107,6 @@ body {
 }
 
 .elementsContainer .btn {
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
@@ -145,11 +137,16 @@ body {
 
 .container-4 .elementsContainer {
   width: 100%;
+}
+
+.container-4 .elementsContainer .form-control {
+  border-radius: 0px;
   font-size: 14px;
 }
 
 .container-4 .elementsContainer .btn {
   height: 100%;
+  border-radius: 0px;
 }
 
 .container-4 .container-5 {
@@ -174,7 +171,6 @@ body {
   color: black;
 }
 
-
 /*University page*/
 
 .university-nav .elementsContainer {
@@ -184,112 +180,196 @@ body {
   margin: 10px auto;
 }
 
-.university-nav .woman-image{
-   width: 50px;
-   height: 50px;
-   border-radius: 50%;
-    float: right;
-   
+.university-nav .woman-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: right;
 }
-.university-nav .logo{
+.university-nav .logo {
   width: 100px;
   height: 72px;
   margin-top: 20px;
 }
-.welcome{
+.welcome {
   text-align: center;
-  color: #071D69;
-  
+  color: #071d69;
 }
 
-.nigeria-universities .form-select{
+.nigeria-universities .form-select {
   padding: 10px;
-  color: #071D69;
+  color: #071d69;
 }
 
-.university-nav .card{
+.university-nav .card {
   width: 70rem;
   margin: 20px auto;
 }
 
-.university-nav .text-end{
-  background-color: #6A8DE1;
+.university-nav .text-end {
+  background-color: #6a8de1;
   color: #fff;
 }
 
-.nigeria-universities .dropdown{
+.nigeria-universities .dropdown {
   padding: 20px;
 }
 
-.text-end .card-link{
-text-decoration: none;
-color: white;
+.text-end .card-link {
+  text-decoration: none;
+  color: white;
 }
 
 .text-end .rating-icon {
-color: rgb(240, 164, 24);
+  color: rgb(240, 164, 24);
 }
-.nigeria-universities .btn{
+.nigeria-universities .btn {
   width: 40rem;
-  
 }
 
-.card .card-text{
+.card .card-text {
   text-align: center;
   padding-top: 10px;
 }
 
-.nigeria-universities{
+.nigeria-universities {
   margin: 50px auto;
   border: 1px solid rgb(216, 213, 213);
   width: 70rem;
   padding: 30px;
- 
 }
-.university-nav .text-end .btn{ 
-  color: #6A8DE1;
+.university-nav .text-end .btn {
+  color: #6a8de1;
 }
 
-.universities{
+.universities {
   text-align: center;
   text-transform: uppercase;
-  
 }
 
-.university-nav .arrow{
+.university-nav .arrow {
   font-size: 30px;
 }
-.footer-links a{
-text-decoration: none;
-border-right: 1px solid black;
-padding-right: 150px;
-margin: 50px;
-color: #071D69;
+.footer-links a {
+  text-decoration: none;
+  border-right: 1px solid black;
+  padding-right: 150px;
+  margin: 50px;
+  color: #071d69;
 }
 
-.footer-links .hyperlink{
+.footer-links .hyperlink {
   border: none;
 }
 
-.footer-links{
+.footer-links {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-.nigeria-universities h2{
+.nigeria-universities h2 {
   text-align: center;
   text-transform: uppercase;
-  color: #6A8DE1 ;
+  color: #6a8de1;
   padding: 20px;
- 
 }
 
+/* Modal.js */
+.modal-header {
+  background-color: rgba(10, 22, 80, 1) !important;
+  color: #fff !important;
+}
 
+#modalClose {
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+}
 
+.modal-1 h5 {
+  font-size: 16px !important;
+}
+.modal-1 .elementsContainer .form-control {
+  width: 400px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-color: #071d69 !important ;
+  font-size: 16px;
+}
+.modal-1 .elementsContainer .btn {
+  color: #071d69;
+  border-color: #071d69 !important;
+  background-color: #fff !important;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
 
+#exampleCheck1 {
+  border-color: #071d69 !important;
+}
 
-/* small screen size */
+#exampleCheck1:focus {
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+#exampleCheck1:checked {
+  background-color: #071d69 !important;
+}
+
+.modal-1 .btn-custom {
+  background-color: #071d69 !important;
+  color: #fff;
+}
+.modal-1 .btn-custom:hover {
+  color: #fff;
+  background-color: rgba(7, 28, 105, 0.8) !important;
+}
+
+@media (max-width: 380px) {
+  .container-2 h1 {
+    font-size: 10px;
+  }
+  .container-2 p {
+    font-size: 14px;
+  }
+}
+
+/* faculty page*/
+
+.faculty-bg {
+  height: 300px;
+  background: url("https://i.ibb.co/19V4fZX/SAVE-20210409-104135.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 65px;
+}
+
+.faculty .faculty-test p {
+  font-size: 25px;
+}
+
+.faculty .faculty-test a {
+  font-size: 80px;
+}
+
+.faculty p {
+  font-size: 17px;
+  text-align: center;
+}
+
+.faculty a {
+  text-decoration: none;
+  color: #4981b3;
+}
+
+/* Medium devices (tablets, 576px and up)*/
 @media (max-width: 576px) {
+  .elementsContainer {
+    width: 30%;
+  }
 }
 
 /* Medium devices (tablets, 768px and up)*/
@@ -298,6 +378,9 @@ color: #071D69;
 
 /* Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) {
+  .elementsContainer {
+    width: 30%;
+  }
 }
 /* X-Large devices (large desktops, 1200px and up)*/
 @media (max-width: 1200px) {

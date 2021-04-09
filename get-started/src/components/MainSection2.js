@@ -1,14 +1,14 @@
 const MainSection2 = () => {
     return ( 
         <div className="container-4 py-4 ">
-            <h5 className = "ms-3 ">LATEST NEWS</h5>
+            <h5 className = "ms-5 mb-0  ">LATEST NEWS</h5>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6">
-                    <div className="container-5 my-4 py-4 mx-auto">
+                    <div className="container-5 my-3 py-3 mx-auto">
                     <div class="container rounded bg-light">
   <div className="row row-cols-1">
-    <div className="col">
+    <div className="col lh-base">
         <h5>March 30,2021</h5>
         <p>Unilag release their cut off mark for 2021/2022 Academic session.</p>
         <div class="border-top border-primary w-100  my-3" ></div>
@@ -26,7 +26,7 @@ const MainSection2 = () => {
         <div class="border-top border-primary w-100  my-3" ></div>
    </div>
     <div className="col">
-        <h5>Febraury 25,2021</h5>
+        <h5>February 25,2021</h5>
         <p>Obafemi awolowo university commences admission process for the 2019/2020 session.</p>
   </div>
   </div>
@@ -34,7 +34,7 @@ const MainSection2 = () => {
       </div>
      </div>
   <div className="col-lg-6 col-md-6 my-auto ">
-        <p>Do you want to be the first to recieve information about offers, services, scholarships, educational materials and general updates? Then sign up for our weekly newsletter</p>
+        <p className = "fs-5 lh-base">Do you want to be the first to recieve information about offers, services, scholarships, educational materials and general updates? Then sign up for our monthly newsletter</p>
          <table className = "elementsContainer ">
       <tr>
         <td>
