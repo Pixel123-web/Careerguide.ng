@@ -52,8 +52,10 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-light nav-link px-2"
-                    href="#"
-                  ></a>
+                    href="/virtual"
+                  >
+                    Virtual
+                  </a>
                 </li>
                 <li>
                   <a
@@ -93,7 +95,7 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-light nav-link px-2"
-                    href="#/scholarships"
+                    href="/scholarships"
                   >
                     Scholarships
                   </a>
@@ -101,7 +103,7 @@ const NavBar = () => {
                 <li>
                   <a
                     className="dropdown-item text-light nav-link px-2"
-                    href="#/mentorships"
+                    href="/mentorships"
                   >
                     Mentorships
                   </a>
