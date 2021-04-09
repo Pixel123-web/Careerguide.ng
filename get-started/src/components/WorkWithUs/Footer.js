@@ -1,3 +1,5 @@
+import style from "../../components/NavBar/style.css";
+
 import {
   FaRegCopyright,
   FaTwitter,
