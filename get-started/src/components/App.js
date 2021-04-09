@@ -46,26 +46,23 @@ function App() {
 =======
 import "../App.css";
 /*import { Container } from "react-bootstrap"; */
-// import SignUp from "./signUp";
-// import Header from "./Header";
+import SignUp from "./signUp";
+import Header from "./Header";
+import Landing from './Landing'
 import NavBar from "./NavBar";
-// import MainSection1 from "./MainSection1";
-// import MainSection2 from "./MainSection2";
-// import Universities from "./Universities";
-
-import Services from "./services/Services"
-import Header2 from "./services/Header2.js"
+import MainSection1 from "./MainSection1";
+import MainSection2 from "./MainSection2";
+import Universities from "./Universities"
 function App() {
   return (
     <div className="header-section">
+      <Landing/>
       {/* <NavBar></NavBar>
       <Header></Header>
       <MainSection1></MainSection1>
       <MainSection2></MainSection2>
       <Universities></Universities> */}
-      <NavBar/>
-      <Header2/>
-      <Services/>
+
     </div>
 
 

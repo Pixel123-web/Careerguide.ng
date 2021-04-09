@@ -1,98 +1,59 @@
 import React from 'react';
 import { FaSearch } from "react-icons/fa";
-import { IoIosArrowBack } from "react-icons/io";
-import NavBar from "./NavBar";
 
 export default function Universities() {
   return (
-    <div className="container-fluid">
-      <NavBar></NavBar>
-      <div className="university-nav">
-        <div>
-          <h1 className="text-primary universities">Universities</h1>
-        </div>
-        <div className="card bg-dark text-white">
-          <img src="uiimage.jpg" class="card-img" alt="university"></img>
-          <div className="card-img-overlay">
-            <p className="card-text">Your career journey of a thousand miles starts here and we are here to walk you through it</p>
-          </div>
-        </div>
+    <div>
+      <img src="" alt="logo-image" className="logo-image"></img>
+      <h1 className="universities">Universities</h1>
+      <input className="form-control  " type="search" placeholder="Search Universities by Name or State" aria-label="Search"></input>
+      <a className="btn btn-primary py-2 mx-0 ps-2" href="#" role="button"><FaSearch></FaSearch></a>
 
-        <h2 className="text-primary">List of Universities in Nigeria</h2>
-        <div className="nigeria-universities row">
-          <div className="col-sm-8">
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>Abia State</option>
-              <option value="1">Abia University</option>
-              <option value="2">Abia University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>Adamawa State</option>
-              <option value="1">Adamawa University</option>
-              <option value="2">Adamawa University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>  Akwa-ibom State</option>
-              <option value="1">Akwa-ibom University</option>
-              <option value="2">Akwa-ibom State University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>Anambra State</option>
-              <option value="1">Anambra University</option>
-              <option value="2">Anambra University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>Bauchi State</option>
-              <option value="1">Bauchi University</option>
-              <option value="2">Bauchi University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected> Benue State</option>
-              <option value="1"> Benue University</option>
-              <option value="2"> Benue State University</option>
-            </select>
-
-            <select className="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-              <option selected>Borno State</option>
-              <option value="1">Borno  University</option>
-              <option value="2">Borno  University</option>
-            </select>
-
-            <a href="#">More States....</a>
-          </div>
-          <div className="select-university col-sm-4">
-
-            <div className="form-check">
-              <input className="form-check-input" type="radio" name="option" id="federal" value="option1" checked />
-              <label className="form-check-label" for="exampleRadios1">
-                Federal
-  </label>
-            </div>
-            <div className="form-check">
-              <input className="form-check-input" type="radio" name="option" id="state" value="option2" />
-              <label className="form-check-label" for="exampleRadios2">
-                State
-  </label>
-            </div>
-            <div className="form-check">
-              <input className="form-check-input" type="radio" name="option" id="private" value="option3" />
-              <label className="form-check-label" for="exampleRadios3">
-                Private
-  </label>
-            </div>
-          </div>
-        </div>
+      <div>
+        <p>Your career journey of a thousand miles starts here and we are here to walk you through it</p>
+        <p>Ratings</p>
       </div>
+
+      <div>
+        <p>...into all this, don't have a choice university? </p>
+        <p>...best university to me based on my course and environmet preference</p>
+        <button>
+          Suggest University
+        </button>
+      </div>
+
+      <div className="nigeria-universities">
+        <h2>Universities in Nigeria</h2>
+        <ul className="university-state">
+          <li><a href="#">Abia State</a></li>
+          <ul className="dropdown">
+            <li><a href="#">Abia University</a></li>
+            <li><a href="#">Abia University</a></li>
+          </ul>
+          <li><a href="#">Adamawa State</a></li>
+          <li><a href="#">Akwa-ibom State</a></li>
+          <li><a href="#">Anambra State</a></li>
+          <li><a href="#">Bauchi State</a></li>
+          <li><a href="#">Benue State</a></li>
+          <li><a href="#">Borno State</a></li>
+          <a href="#">More States....</a>
+        </ul>
+      </div>
+
+      <div>
+        <ul className="footer-links">
+          <li><a href="#">Academic Posts</a></li>
+          <li><a href="#">Scholarship Opportunites</a></li>
+          <li><a href="#">Hyperlinks</a></li>
+        </ul>
+      </div>
+
+      <div>
+
+      </div>
+
     </div>
-
-
-
-
   )
 }
+
 
